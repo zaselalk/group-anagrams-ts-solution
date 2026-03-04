@@ -1,0 +1,20 @@
+{
+  "name": "group-anagrams",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run --watch=true"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0-beta.13",
+    "vitest": "^4.0.18"
+  },
+  "overrides": {
+    "vite": "^8.0.0-beta.13"
+  }
+}
